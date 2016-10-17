@@ -1,12 +1,12 @@
 pkgname=google-play-music-desktop-player
-pkgver=3.6.0
+pkgver=4.0.1
 pkgrel=1
 pkgdesc="An electron wrapper for Google Play Music"
 arch=('x86_64')
 url="https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-"
 license=('MIT')
 depends=('gconf' 'gtk2' 'libxtst' 'nss' 'alsa-lib' 'libnotify' 'fontconfig')
-sha256sums=('245566b56a7bd984381bbeab5ebf1a91e4f86f377af11d4181c5eeacb806c7cc')
+sha256sums=('0e2ec3c95745de48d42e82fa56c5ce43be6882c28b3e03268786f42b785f318a')
 source=("https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-/releases/download/v${pkgver}/${pkgname}_${pkgver}_amd64.deb")
 
 package() {
